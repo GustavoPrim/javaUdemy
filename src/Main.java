@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int idade;
+
+        /* int idade;
 
         System.out.print("Digite a sua idade: ");
         idade = sc.nextInt();
@@ -92,6 +93,15 @@ public class Main {
             u -= 1;
             v += 1;
             System.out.println(w);
+        } */
+
+
+        System.out.print("Digite um número diferente de 0: ");
+        int x = sc.nextInt();
+
+        while (x != 0){
+            System.out.print("Digite um número diferente de 0: ");
+            x = sc.nextInt();
         }
     }
 }
