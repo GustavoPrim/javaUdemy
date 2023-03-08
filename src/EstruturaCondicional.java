@@ -4,6 +4,7 @@ public class EstruturaCondicional {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // Exercício 01
         System.out.print("Informe um número: ");
         int numero = sc.nextInt();
 
@@ -15,6 +16,7 @@ public class EstruturaCondicional {
             System.out.println("Número neutro");
         }
 
+        // Exercício 02
         System.out.print("Digite um número: ");
         int number = sc.nextInt();
 
@@ -25,6 +27,7 @@ public class EstruturaCondicional {
         }
 
 
+        // Exercício 03
         System.out.print("Digite o número 1: ");
         int numero1 = sc.nextInt();
 
@@ -35,6 +38,7 @@ public class EstruturaCondicional {
         }
 
 
+        // Exercício 04
         System.out.print("Digite um número: ");
         int numeroInformacoes = sc.nextInt();
 
